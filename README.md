@@ -1,6 +1,6 @@
 # Disney+ Clone
 Este projeto é um clone do popular site de streaming Disney+, desenvolvido utilizando React, Redux, Styled Components, Firebase e autenticação/login com Google.
-[Clique aqui para acessar](https://www.exemplo.com](https://dinseyplusclone.web.app )
+[Clique aqui para acessar]( https://www.exemplo.com](https://dinseyplusclone.web.app )
 
 ## Funcionalidades
 Login com Conta Google
