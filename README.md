@@ -1,70 +1,40 @@
-# Getting Started with Create React App
+#Disney+ Clone
+Este projeto é um clone do popular site de streaming Disney+, desenvolvido utilizando React, Redux, Styled Components, Firebase e autenticação/login com Google.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+##Funcionalidades
+Login com Conta Google
+Os usuários podem fazer login no site utilizando sua conta do Google, proporcionando uma experiência de autenticação rápida e segura.
 
-## Available Scripts
+###Slider/Carrossel de Filmes
+O site apresenta um slider/carrossel com alguns filmes em destaque, proporcionando uma experiência visual envolvente para os usuários.
 
-In the project directory, you can run:
+###Principais IPs do Disney+
+Exibe as principais IPs (Disney, Pixar, Marvel, Star Wars e National Geographic) em uma seção dedicada, destacando o diversificado catálogo do Disney+.
 
-### `npm start`
+###Seções de Conteúdo
+O conteúdo do site está organizado em quatro seções principais:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Recomendados: Filmes e séries recomendados com base nas preferências do usuário.
+Novos: As últimas adições ao catálogo do Disney+.
+Originais: Conteúdo exclusivo produzido pelo Disney+.
+Em Alta: Filmes e séries populares no momento.
+Detalhes do Filme
+Ao clicar em um filme, os usuários são redirecionados para uma página de detalhes, onde informações adicionais sobre o filme são exibidas. Esses dados são obtidos a partir do banco de dados Firebase.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+###Tecnologias Utilizadas
+React: Biblioteca JavaScript para construção de interfaces de usuário.
+Redux: Gerenciamento de estado para uma gestão eficiente dos dados da aplicação.
+Styled Components: Biblioteca para estilização de componentes React com a utilização de estilos no nível do componente.
+Firebase: Plataforma de desenvolvimento móvel e web que fornece uma variedade de serviços, incluindo autenticação e banco de dados em tempo real.
 
-### `npm test`
+###Instruções de Execução
+Certifique-se de ter o Node.js instalado em sua máquina. Clone o repositório e execute os seguintes comandos:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Instalação das dependências
+npm install
 
-### `npm run build`
+### Inicialização do aplicativo
+npm start
+O aplicativo estará disponível em http://localhost:3000.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Observação: Antes de executar o aplicativo, configure as credenciais do Firebase para habilitar a autenticação com o Google e o acesso ao banco de dados.
