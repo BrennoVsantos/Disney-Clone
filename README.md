@@ -34,7 +34,9 @@ Certifique-se de ter o Node.js instalado em sua máquina. Clone o repositório e
 npm install
 
 ### Inicialização do aplicativo
+
 npm start
+
 O aplicativo estará disponível em http://localhost:3000.
 
 Observação: Antes de executar o aplicativo, configure as credenciais do Firebase para habilitar a autenticação com o Google e o acesso ao banco de dados.
